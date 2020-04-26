@@ -1,0 +1,35 @@
+{
+  "name": "wdio-template-v6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@rpii/wdio-html-reporter": "^0.9.8",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/cli": "^6.1.4",
+    "@wdio/cucumber-framework": "^6.1.1",
+    "@wdio/local-runner": "^6.1.4",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/spec-reporter": "^6.0.16",
+    "@wdio/sync": "^6.1.0"
+  },
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-babel": "~8.0.0",
+    "gulp-util": "~3.0.8",
+    "react": "^16.13.1",
+    "wdio-html-reporter": "~1.0.2"
+  }
+}
